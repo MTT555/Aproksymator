@@ -158,6 +158,7 @@ main (int argc, char **argv)
 
     fclose (gpf);
   }
-
+wyczyscPunkty(&pts);
+wyczyscSpline(&spl);
   return 0;
 }

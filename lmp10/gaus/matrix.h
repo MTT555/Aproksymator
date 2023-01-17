@@ -15,6 +15,8 @@ matrix_t * read_matrix( FILE *in );
 
 void write_matrix( matrix_t *, FILE *out );
 
+void free_matrix (matrix_t * m); // musialem sam dodac bo nie bylo wczesniej
+
 void put_entry_matrix( matrix_t *, int i, int j, double val );
 
 void add_to_entry_matrix( matrix_t *, int i, int j, double val );

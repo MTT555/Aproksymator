@@ -10,5 +10,6 @@ typedef struct {
 } points_t;
 
 int read_pts_failed ( FILE* inf, points_t *pts);
+void wyczyscPunkty(points_t *pts);
 
 #endif

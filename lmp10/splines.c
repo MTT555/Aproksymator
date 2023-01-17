@@ -61,3 +61,11 @@ value_spl (spline_t * spl, double x)
 	+ dx * dx / 2 *  spl->f2[i] 
 	+ dx * dx * dx / 6 * spl->f3[i];
 }
+void wyczyscSpline(spline_t *spl){
+if (spl->x != NULL) free(spl->x);
+if (spl->f != NULL) free(spl->f);
+if (spl->f1 != NULL) free(spl->f1);
+if (spl->f2 != NULL) free(spl->f2);
+if (spl->f3 != NULL) free(spl->f3);
+
+}

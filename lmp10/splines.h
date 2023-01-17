@@ -20,4 +20,6 @@ void  write_spl ( spline_t *spl, FILE * ouf );
 
 double value_spl( spline_t *spl, double x);
 
+void wyczyscSpline(spline_t *spl);
+
 #endif
